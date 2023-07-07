@@ -1,0 +1,81 @@
+.table-container {
+    overflow: auto;
+}
+
+table {
+    margin: 25px auto;
+    width: 70%;
+    border-collapse: collapse;
+    border: 5px solid #dddddd;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+th {
+    width: 30%;
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #d1d1d1;
+}
+
+.table-row-heading th {
+    padding: 8px;
+    border: 2px solid #dbdbdb;
+}
+
+button {
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background: none;
+}
+
+#edit-form {
+    position: fixed;
+    top: -100%;
+    transition: 0.3s all;
+}
+
+.edit-form-animation {
+    transition: top 0.5s ease;
+}
+
+.cancel-edit {
+    background-color: #f44336;
+    width: 25px;
+    height: 25px;
+    margin: 23px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cancel-edit:hover {
+    background-color: #cd2418;
+}
+
+.table-container button img {
+    width: 20px;
+    background-color: none;
+}
+
+.table-container button img:hover {
+    opacity: 0.6;
+}
+
+input#file-upload-button {
+    background-color: red;
+}
